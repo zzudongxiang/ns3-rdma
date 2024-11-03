@@ -7,6 +7,12 @@ set(source_files
     helper/packet-socket-helper.cc
     helper/simple-net-device-helper.cc
     helper/trace-helper.cc
+    utils/broadcom-egress-queue.cc
+    utils/custom-header.cc
+    utils/int-header.cc
+    utils/packet-queue.cc
+    utils/red-queue.cc
+    utils/simple-drop-tail-queue.cc
     model/address.cc
     model/application.cc
     model/buffer.cc
@@ -81,6 +87,12 @@ set(header_files
     helper/packet-socket-helper.h
     helper/simple-net-device-helper.h
     helper/trace-helper.h
+    utils/broadcom-egress-queue.h
+    utils/custom-header.h
+    utils/int-header.h
+    utils/packet-queue.h
+    utils/red-queue.h
+    utils/simple-drop-tail-queue.h
     model/address.h
     model/application.h
     model/buffer.h
